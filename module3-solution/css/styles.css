@@ -1,1 +1,21 @@
+/* External CSS file for Module 3 Assignment */
+
+/* Make the content section tall enough to enable scrolling */
+#content-section {
+  min-height: 1000px; /* or more as needed */
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+/* Mobile dropdown menu full width minus margins */
+#mobile-dropdown-menu {
+  background-color: #e0e0e0;
+  margin: 0 -15px; /* counter container padding for full width */
+  padding: 10px 0;
+}
+
+/* Center text for menu items */
+#mobile-dropdown-menu > li > a {
+  display: block;
+}
 
